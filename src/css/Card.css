@@ -1,0 +1,45 @@
+.card {
+    background-color: #ffffff;
+    font-family: 'Proxima Nova Condensed', sans-serif;;
+    border-radius: 16px;
+    box-shadow: 10px 10px #BBF1DA;
+    border: 1px solid #050038;
+    padding: 20px;
+}
+.profile{
+    text-align: center;
+}
+.profile-image{
+    width: 124px;
+    height: 124px;
+    border-radius: 90px;
+    border: 2px solid #FFEEEE;
+}
+.person-name{
+    font-size: 20px;
+    line-height: 14px;
+    margin: 10px 0px 4px;
+}
+.category {
+    font-size: 14px;
+}
+.details {
+    margin-top: 20px;
+}
+.detail-item {
+    background-color: #f9fbfc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 2px solid #CFCFCF;
+}
+.cardTitle {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+}
+.description {
+    margin: 4px 0px 0px;
+    color: #555555;
+    font-size: 13px;
+  }

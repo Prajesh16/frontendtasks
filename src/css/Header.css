@@ -1,0 +1,105 @@
+.title{
+    display: grid;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    justify-content: space-evenly;
+    justify-items: center;
+    gap: 10px;
+}
+.titleName{
+    margin: 0;
+    padding: 0px 190px 0px 190px;
+    font-size: 44px;
+    text-align: center;
+    line-height: 48px;
+}
+.titleDescription{
+    margin: 0;
+    padding: 0px 100px 0px 100px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+}
+.button{
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    gap: 20px;
+}
+.btn{
+    background: #FFFFFF;
+    border: 2px solid #F06156;
+    font-family: 'Proxima Nova Condensed', sans-serif;
+    box-shadow: 0px 3px 12px 1px #0000001F;
+    border-radius: 12px;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #F06156;
+    color: #FFFFFF;
+} 
+.btn:focus{
+    background-color: #F06156;
+}
+.active{
+    background-color: #F06156;
+    color: white;
+}
+@media(max-width:1100px){
+    .title{
+        display: grid;
+    }
+    .titleName{
+        padding: 0px;
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .titleDescription{
+        padding: 0px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .btn:hover{
+        background: #F06156;
+        color: #FFFFFF;
+    } 
+    .btn:focus{
+        background-color: #F06156;
+    }
+    .active{
+        background-color: #F06156;
+        color: white;
+    }
+}
+@media(max-width:768px){
+    .title{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .titleName{
+        padding: 0px;
+        font-size: 24px;
+        line-height: 27px;
+    }
+    .titleDescription{
+        padding: 0px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .button{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .btn:hover{
+        background: #F06156;
+        color: #FFFFFF;
+    } 
+    .btn:focus{
+        background-color: #F06156;
+    }
+    .active{
+        background-color: #F06156;
+        color: white;
+    }
+}

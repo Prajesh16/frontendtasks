@@ -1,0 +1,51 @@
+.storieTitle{
+    display: grid;
+    font-family: 'Proxima Nova Condensed', sans-serif;;
+    justify-content: space-evenly;
+    justify-items: center;
+    gap: 10px;
+}
+.storieTitleName{
+    margin: 0;
+    padding: 50px 190px 0px 190px;
+    font-size: 44px;
+    text-align: center;
+    line-height: 48px;
+}
+.storieTitleDescription{
+    margin: 0;
+    padding: 0px 100px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+}
+@media (max-width: 1100px) {
+    .storieTitle{
+        display: grid;
+    }
+    .storieTitleName{
+        padding: 0;
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .storieTitleDescription{
+        padding: 0;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+@media (max-width: 768px) {
+    .storieTitle{
+        grid-template-columns: 1fr;
+    }
+    .storieTitleName{
+        padding: 0;
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .storieTitleDescription{
+        padding: 0;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
