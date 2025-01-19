@@ -1,6 +1,6 @@
 .storieTitle{
     display: grid;
-    font-family: Proxima Nova;
+    font-family: 'Proxima Nova Condensed', sans-serif;;
     justify-content: space-evenly;
     justify-items: center;
     gap: 10px;

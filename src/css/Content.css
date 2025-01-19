@@ -1,7 +1,7 @@
 .mainDescription{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-family: Proxima Nova;
+    font-family: 'Proxima Nova Condensed', sans-serif;
     justify-items: end;
     gap: 20px;
     padding: 20px 150px 0px 150px;

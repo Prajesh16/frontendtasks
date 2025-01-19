@@ -3,10 +3,18 @@ import Header from "./components/Header";
 import StorieHeader from "./components/StorieHeader";
 import Card from "./components/Card";
 import "./css/App.css";
+import Homepage from "./components/Homepage";
+import Career from "./components/Career";
 
 function App() {
   return (
     <div className="App">
+      <div className="homePage">
+        <Homepage />
+      </div>
+      <div className="career">
+        <Career />
+      </div>
       <div className="mainContent">
         <div className="Header">
           <Header />
